@@ -1,11 +1,11 @@
 
-# 💱 Desafio FullCycle — Cotação do Dólar em Go
+# Desafio FullCycle — Cotação do Dólar em Go
 
 Este projeto consiste em dois programas escritos em Go que se comunicam via HTTP para buscar e registrar a cotação atual do dólar (USD → BRL) utilizando a API pública da [AwesomeAPI](https://docs.awesomeapi.com.br/api-de-moedas).
 
 ---
 
-## 🧩 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 /client       → Contém o client.go
@@ -16,9 +16,9 @@ cotacoes.db   → Banco de dados SQLite criado automaticamente pelo servidor
 
 ---
 
-## 🧪 Como Executar
+## Como Executar
 
-### 🔹 1. Rode o servidor
+###  1. Rode o servidor
 
 No terminal, acesse a pasta `server` e execute:
 
@@ -90,7 +90,7 @@ Campos:
 Este projeto usa o driver `github.com/mattn/go-sqlite3`, que **requer CGO** ativado.  
 Em alguns ambientes, pode ser necessário ter o compilador **GCC instalado**.
 
-### 🛠️ Para rodar em Windows:
+### Para rodar em Windows:
 
 Caso ocorra erro relacionado a `CGO` ou `gcc` ausente, sugerimos instalar o compilador C:
 
